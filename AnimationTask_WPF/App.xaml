@@ -1,0 +1,30 @@
+﻿<Application x:Class="AnimationTask_WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:AnimationTask_WPF"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Storyboard x:Key="btn_click_animation">
+            <DoubleAnimation 
+                Storyboard.TargetProperty="(Canvas.Left)"
+                Storyboard.TargetName="btn_a"
+                From="40" To="-250"/>
+            <DoubleAnimation
+                   Storyboard.TargetProperty="(Canvas.Top)"
+                   Storyboard.TargetName="btn_a"
+                   From="30" To="0"/>
+            <DoubleAnimation
+                                Storyboard.TargetProperty="(Canvas.Right)"
+                                Storyboard.TargetName="btn_b"
+                                From="40" To="-250"/>
+            <DoubleAnimation
+                                Storyboard.TargetProperty="(Canvas.Top)"
+                                Storyboard.TargetName="btn_b"
+                                From="30" To="0"/>
+            <DoubleAnimation
+                                Storyboard.TargetProperty="(Canvas.Bottom)"
+                                Storyboard.TargetName="btn_c"
+                                From="40" To="-150"/>
+        </Storyboard>
+    </Application.Resources>
+</Application>

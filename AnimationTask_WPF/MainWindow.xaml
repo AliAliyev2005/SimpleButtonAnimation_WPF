@@ -16,10 +16,6 @@
                                 Storyboard.TargetProperty="(Canvas.Left)"
                                 Storyboard.TargetName="btn_a"
                                 From="-250" To="40"/>
-                        </Storyboard>
-                    </BeginStoryboard>
-                    <BeginStoryboard>
-                        <Storyboard>
                             <DoubleAnimation
                                 Storyboard.TargetProperty="(Canvas.Top)"
                                 Storyboard.TargetName="btn_a"
@@ -41,10 +37,6 @@
                                 Storyboard.TargetProperty="(Canvas.Right)"
                                 Storyboard.TargetName="btn_b"
                                 From="-250" To="40"/>
-                        </Storyboard>
-                    </BeginStoryboard>
-                    <BeginStoryboard>
-                        <Storyboard>
                             <DoubleAnimation
                                 Storyboard.TargetProperty="(Canvas.Top)"
                                 Storyboard.TargetName="btn_b"
